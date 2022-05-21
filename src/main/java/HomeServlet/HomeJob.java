@@ -14,6 +14,6 @@ public class HomeJob extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
         String age = req.getParameter("age");
-        resp.getWriter().println("<h1>Hello" + name + age +  "</h1>");
+        resp.getWriter().println("<h1>Hello" + name + age + "</h1>");
     }
 }
